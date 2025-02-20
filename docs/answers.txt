@@ -1,0 +1,68 @@
+Date of Completion for git tutorials: 19FEB2025
+
+Date of github account creation(mark-was): JAN2025
+
+
+1. 
+
+(base) ➜  assignment2 git:(master) git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 771 bytes | 771.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/mark-was/assignment2.git
+   f4975e5..b8ae6e4  master -> master
+
+
+2.
+
+    9
+
+    git rev-list --all --count
+
+
+3.
+git log -1 --format=%cd -- README.md
+Wed Feb 19 23:03:02 2025 -0500
+
+
+
+4.
+
+branches are used in git for new features so that multiple programmers can work on the same repo without commiting to main, another would be not overwriting another features code, safer that way.
+
+
+5. 
+
+git log shows the commit history of the repo, git status shows the current state of the working directory and staging area.
+
+6.
+
+git log -- Vehicle.h
+
+
+7.
+
+git log --grep="file"
+
+
+8.
+
+Inheritnace: Is when a class 'inherits' all functions or methods from it's parent, they are callable from the child
+Polymorphism: Allows the same function name, but with different parameters
+Encapsulation: a method to restrict access to some components or objects
+
+9.
+
+The main difference between the two workflows is how integration and conflict resolution are managed.
+Integration Manager:
+	Each dev has their own public repo, devs push changes to main, central manager responsible for merging
+Dictator:
+	One central repo, devs push changes to LT repo not main, LT merges, Dictator can only push to main
+
+10.
+
+For 100 devs, the dictator model would be more efficent because it improves efficiency by distributing merge responsibilites, reducing conflicts, instead of everyone having access to main
