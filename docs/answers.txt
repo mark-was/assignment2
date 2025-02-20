@@ -1,6 +1,10 @@
 Date of Completion for git tutorials: 19FEB2025
 
 Date of github account creation(mark-was): JAN2025
+https://github.com/mark-was/assignment2
+
+Screenshots of the git tutorials are in the docs folder in git repo above
+
 
 
 1. 
